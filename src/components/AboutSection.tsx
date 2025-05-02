@@ -91,7 +91,7 @@ const AboutSection = () => {
         </div>
         <div className="flex flex-wrap md:flex-nowrap gap-8">
           <div className="w-full md:w-1/3">
-            <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Jane Maina" className="rounded-lg shadow-md w-full h-auto object-cover" />
+            <img src="/public/jane.jpeg" alt="Jane Maina" className="rounded-lg shadow-md w-full h-auto object-cover" />
           </div>
           <div className="w-full md:w-2/3">
             <div className="mb-6">
