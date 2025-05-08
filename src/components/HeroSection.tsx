@@ -13,7 +13,9 @@ const HeroSection = () => {
             Hi, I'm <span className="text-blue-600">Jane Maina</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-gray-700">
-            A UI/UX Designer, Frontend Developer, and Web Designer
+          A UI/UX Designer | Frontend Developer | Web Innovator  
+          Transforming bold ideas into intuitive, scalable, and user-first digital experiences.
+
           </p>
           <button onClick={() => document.getElementById('contact')?.scrollIntoView({
           behavior: 'smooth'

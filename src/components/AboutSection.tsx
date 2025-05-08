@@ -30,8 +30,8 @@ const AboutSection = () => {
       </div>,
     experience: <div className="space-y-6">
         <div className="border-l-2 border-blue-600 pl-4">
-          <h4 className="font-bold">Senior UI/UX Designer</h4>
-          <p className="text-gray-600">TechCorp Inc. | 2020 - Present</p>
+          <h4 className="font-bold">UI/UX Designer</h4>
+          <p className="text-gray-600"> KIBOKO DAO |2023 - Present</p>
           <p className="mt-2">
             Led design initiatives for enterprise applications, improving user
             satisfaction by 35% and decreasing onboarding time by 25%.
@@ -39,15 +39,15 @@ const AboutSection = () => {
         </div>
         <div className="border-l-2 border-blue-600 pl-4">
           <h4 className="font-bold">Frontend Developer</h4>
-          <p className="text-gray-600">WebSolutions | 2018 - 2020</p>
+          <p className="text-gray-600">2024 - Present</p>
           <p className="mt-2">
             Developed responsive web applications using React and collaborated
-            with design teams to implement pixel-perfect interfaces.
+            with design teams to implement perfect interfaces.
           </p>
         </div>
         <div className="border-l-2 border-blue-600 pl-4">
           <h4 className="font-bold">Web Designer</h4>
-          <p className="text-gray-600">Creative Agency | 2016 - 2018</p>
+          <p className="text-gray-600">Creative Agency | 2023 - 2024</p>
           <p className="mt-2">
             Created visually appealing websites for clients across various
             industries, focusing on user-centered design principles.
@@ -56,16 +56,16 @@ const AboutSection = () => {
       </div>,
     education: <div className="space-y-6">
         <div className="border-l-2 border-blue-600 pl-4">
-          <h4 className="font-bold">Master's in Human-Computer Interaction</h4>
-          <p className="text-gray-600">University of Design | 2015 - 2016</p>
+          <h4 className="font-bold">Certificate in Arts and Design </h4>
+          <p className="text-gray-600">University of Nairobi |2021 - 2022 </p>
           <p className="mt-2">
             Focused on user research methodologies and interaction design
             principles.
           </p>
         </div>
         <div className="border-l-2 border-blue-600 pl-4">
-          <h4 className="font-bold">Bachelor's in Computer Science</h4>
-          <p className="text-gray-600">Tech University | 2011 - 2015</p>
+          <h4 className="font-bold">Sofware Engineering</h4>
+          <p className="text-gray-600"> University | 2020 - 2024</p>
           <p className="mt-2">
             Specialized in web development and software engineering with honors.
           </p>
@@ -79,35 +79,36 @@ const AboutSection = () => {
         </div>
       </div>
   };
-  return <section id="about" className="py-20 bg-gray-50">
+  return (
+    <section id="about" className="py-20 bg-gray-50">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-4">About Me</h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">
-            I'm a passionate UI/UX designer, frontend developer, and web
-            designer with over 5 years of experience creating beautiful,
-            functional, and user-centered digital experiences.
-          </p>
         </div>
         <div className="flex flex-wrap md:flex-nowrap gap-8">
           <div className="w-full md:w-1/3">
-            <img src="/public/jane.jpeg" alt="Jane Maina" className="rounded-lg shadow-md w-full h-auto object-cover" />
+            <img
+              src="/images/jane.jpeg"
+              alt="Jane Maina"
+              className="rounded-lg shadow-md w-full h-auto object-cover"
+            />
           </div>
           <div className="w-full md:w-2/3">
             <div className="mb-6">
               <p className="text-gray-700 leading-relaxed">
-                I combine my technical skills with creative design thinking to
-                build digital solutions that are not only visually appealing but
-                also highly functional and intuitive. My approach centers around
-                understanding user needs and business goals to deliver
-                exceptional digital experiences.
+                I'm Jane Maina, a creative and detail driven Frontend developer with over 3 years of experience crafting seamless,
+                functional, and visually striking web experiences.
+                With a deep understanding of design systems, responsive layouts, and modern frontend frameworks, I bridge the gap
+                between design and development to build digital products that truly resonate with users.
+                My work blends creative storytelling with scalable code ensuring every interface is both beautiful and built to perform.
+                Whether collaborating on startups or launching independent projects, I focus on innovation, accessibility, and user satisfaction at every stage.
+                My approach centers around understanding user needs and business goals to deliver exceptional digital experiences.
               </p>
               <p className="text-gray-700 leading-relaxed mt-4">
-                With expertise spanning UI/UX design, frontend development, and
-                web design, I bring a holistic perspective to every project. I'm
-                passionate about creating accessible, responsive, and
-                performance-optimized websites and applications.
+                With expertise spanning UI/UX design, frontend development, and web design, I bring a holistic perspective to every project.
+                I'm passionate about creating accessible, responsive, and performance-optimized websites and applications.
               </p>
+            </div>
             </div>
             <div className="border-b border-gray-200 mb-6">
               <nav className="flex space-x-8">
@@ -119,7 +120,7 @@ const AboutSection = () => {
             <div className="py-4">{tabs[activeTab as keyof typeof tabs]}</div>
           </div>
         </div>
-      </div>
-    </section>;
+    </section>
+  )
 };
 export default AboutSection;

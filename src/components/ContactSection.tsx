@@ -22,14 +22,14 @@ const ContactSection = () => {
                 <SendIcon className="w-5 h-5 text-blue-600 mr-3" />
                 <div>
                   <p className="font-medium">Email</p>
-                  <p className="text-gray-600">contact@username.com</p>
+                  <p className="text-gray-600">mainajane4345@gmail.com</p>
                 </div>
               </div>
               <div className="flex items-center mb-8">
                 <PhoneIcon className="w-5 h-5 text-blue-600 mr-3" />
                 <div>
                   <p className="font-medium">Phone</p>
-                  <p className="text-gray-600">+25471234567</p>
+                  <p className="text-gray-600">+254704273508</p>
                 </div>
               </div>
               <h4 className="font-medium mb-4">Follow Me</h4>
